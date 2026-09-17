@@ -76,6 +76,7 @@ species sheep skills: [moving] {
     bool reached_food <- false;
     grass_target destination <- nil;
     float distance_to_food <- 0.0;
+    
     reflex move {
         if !reached_food {
             destination <- grass_target closest_to self;
