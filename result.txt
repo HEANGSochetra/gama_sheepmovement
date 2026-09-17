@@ -1,0 +1,27 @@
+Important: experiments 1–2 ended at cycle 15, while experiments 3–12 ended at cycle 50. Therefore, experiments 1–2 should only be compared with each other.
+Exp.	Configuration	Distance (m)	Flock spacing (m)	Trampled area	Obstacle encounters
+1	20 sheep	15.07	1.98	1.51%	0
+2	60 sheep	13.44	2.08	4.15%	0
+3	20 + vegetation	57.49	1.07	6.69%	0
+4	60 + vegetation	50.05	1.08	16.19%	0
+5	20 + vegetation + dog	57.17	1.65	6.45%	0
+6	60 + vegetation + dog	57.24	1.60	18.32%	0
+7	20 + vegetation + 5 obstacles	57.85	2.06	5.46%	156
+8	60 + vegetation + 5 obstacles	56.96	1.88	15.16%	369
+9	20 + vegetation + 20 obstacles	55.55	5.94	3.97%	235
+10	60 + vegetation + 20 obstacles	52.51	1.40	9.73%	682
+11	20 + vegetation + dog + 10 obstacles	42.31	3.77	4.09%	65
+12	60 + vegetation + dog + 10 obstacles	55.44	2.12	12.38%	635
+
+
+Lower flock spacing means stronger gathering.
+Evaluation
+- 20 versus 60 sheep: At cycle 15, experiments 1 and 2 have almost identical flock spacing. There is no strong evidence that 60 sheep gather better in this short run. However, 60 sheep trampled approximately 2.75 times more area.
+- Vegetation: Experiments 3 and 4 produced the tightest groups, with spacing close to 1.07 m. Vegetation therefore appears to be the strongest gathering factor.
+- Dog: Comparing 3→5 and 4→6, the dog increased spacing by roughly 49–55%. The dog disturbed the flock and caused it to spread. With 60 sheep, it also increased movement and trampling.
+- Five obstacles: Experiments 7 and 8 remained relatively cohesive, but spacing was greater than in vegetation-only experiments. Obstacles produced 156 and 369 encounters and slightly reduced the trampled area.
+- Twenty obstacles: Experiment 9 had the largest spacing, 5.94 m. This indicates that many obstacles fragmented the 20-sheep flock. With 60 sheep, the flock remained much tighter because the higher density made nearby neighbours easier to find.
+- Dog and ten obstacles: Experiment 11 showed reduced movement and considerable separation. Experiment 12 remained more cohesive, but generated many more encounters and approximately three times as much trampled area.
+Main conclusion
+Vegetation encourages sheep to gather. Dogs disturb and spread the flock. Obstacles restrict movement and reduce the area being trampled, but many obstacles can divide a small flock. Increasing the population from 20 to 60 greatly increases environmental impact, while often helping the flock remain connected under difficult conditions.
+For a defensible final study, run every experiment for the same 50 or 500 cycles, repeat each case at least 10 times, report mean ± standard deviation, and divide obstacle encounters by sheep count. The current screenshots show one random run per treatment, so unusual results—especially experiments 9 and 11—may be caused partly by random placement.
